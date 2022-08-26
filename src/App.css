@@ -1,0 +1,51 @@
+.parent{
+
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  margin-top: 80px;
+}
+
+.btn{
+
+  width: 150px;
+  height: 150px;
+  border-top: none;
+  border-right: none;
+  background-color: #F0DFA9;
+  font-size: 50px;
+  color: black;
+}
+
+.btn:hover{
+  background-color: #C4F153;
+  color: black;
+}
+
+.left{
+  border-left: none;
+}
+
+.down{
+  border-bottom: none;
+}
+
+.new_btn{
+  margin-top: 30px;
+  text-align: center!important;
+}
+
+.btn_new:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.btn_new{
+  height: 40px;
+  width: 150px;
+  font-size: 25px;
+  background-color: #F39884;
+}
